@@ -142,7 +142,12 @@
         },
         {
             "name": "Solomon",
-            "constraint": [],
+            "constraint": [
+                "grade_random",
+                "gauge_lr2",
+                "ln",
+                ""
+            ],
             "md5": [
                 "4ef61e6b853dac78eee4e58f6f16841f",
                 "a03a6fb99314771b5f408e1556b1d124",
