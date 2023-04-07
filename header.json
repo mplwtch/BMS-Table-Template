@@ -3,7 +3,7 @@
 
 
 
-{"name" : "Solomon段位認定","symbol" : "✡","data_url" : "https://script.googleusercontent.com/macros/echo?user_content_key=x2zOgR8HfNkQ6TnHzlkKoE8JMb9woyjKa3y0pNIXZ3_iotueZbKCpXT5y-ynE4e6Y2NuPtRtXYeLuPwBqkSstrJoHCalajdIm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnMR7cNnV8a75NGjQBtxNujoGdV-7j3JVfESX37ULYcQWh9bFtzDGgxbcrb2L2XezaHdukmdRA5GrHySAa7uIkNOjCM1Dfljq_w&lib=MznwyjOlysIhmj79D6u027f-2qzvq4NmQ","level_order" : [0],
+{"name" : "Solomon段位認定","symbol" : "✡","data_url" : "https://script.googleusercontent.com/macros/echo?user_content_key=x2zOgR8HfNkQ6TnHzlkKoE8JMb9woyjKa3y0pNIXZ3_iotueZbKCpXT5y-ynE4e6Y2NuPtRtXYeLuPwBqkSstrJoHCalajdIm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnMR7cNnV8a75NGjQBtxNujoGdV-7j3JVfESX37ULYcQWh9bFtzDGgxbcrb2L2XezaHdukmdRA5GrHySAa7uIkNOjCM1Dfljq_w&lib=MznwyjOlysIhmj79D6u027f-2qzvq4NmQ","level_order" : [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30],
 "course":[
 {"name":"Solomon段位認定 発狂皆伝","constraint":["grade_random","gauge_lr2","ln",""],"md5": ["5026c88dc5986a429a869495528ade14","58e5de4a2ce0ea6b106b88cc04f941a3","c7bfe0504b2e103f156a1d6e4c113efb","01d9ea966de753dee21609a2b69a68e0"]}
 
