@@ -32,9 +32,8 @@
             <p>難易度基準はイージーとハードをどちらも考慮する。イージー基準+ハード難易度が高い場合はプラス。</p>
             <p>段位はRANDOMオプションを使用可能（beatoraja）段位は各2コースあり、2はかなり難しめ想定で腕試し用。</p>
             <p><a href="https://www.youtube.com/playlist?list=PLGHiqlFm8P3zbe2YbxmKPZnx_VujbknnO">段位曲一覧動画(YouTube)</a>　2023年4月25日段位第1期実装。LR2コースファイルは<a href="https://www.dropbox.com/s/tq8knt9efkahubx/Solomon%E6%AE%B5%E4%BD%8D%E8%AA%8D%E5%AE%9A%E7%AC%AC1%E6%9C%9F.lr2crs?dl=1">ここ</a>からDL可能。</p>
-            <p><a href="https://drive.google.com/uc?id=1p8edoxlEkDwqWte8WP0hbvydhhx2igRP&export=download">オルゴール選曲BGM4曲セット</a> Solomon難易度表おまけ特典</p>
-            <p><a href="https://drive.google.com/uc?id=1ooo5y-h-mjwTipOgy37l0MltUowdDdct&export=download">全曲パッケージ（6.4GB）</a></p>
-            <p>上記パッケージは2023/05/17までしか同梱していません、追加分はTwitterをご覧ください。</p>
+            <p><a href="https://drive.google.com/uc?id=1p8edoxlEkDwqWte8WP0hbvydhhx2igRP&export=download">オルゴール選曲BGM4曲セット</a>　Solomon難易度表おまけ特典</p>
+            <p><a href="https://drive.google.com/uc?id=1ooo5y-h-mjwTipOgy37l0MltUowdDdct&export=download">全曲パッケージ（6.4GB）</a>　本パッケージは2023/05/17までしか同梱していません、追加分はTwitterをご覧ください。</p>
             <a href="https://twitter.com/Solomon_BMS">公式Twitter</a>　更新履歴や連絡などはこちら
             <p>最終更新：2023/05/25</p>
         </div>
@@ -61,7 +60,7 @@
                 var obj = $("#table_int");
 
                 obj.html("");
-                $("<thead class='table-dark'><tr><th>Level</th><th>Title</th><th>Artist</th><th>Comment</th></tr></thead><tbody>")
+                $("<thead class='table-dark'><tr><th>Level</th><th>Title</th><th>Artist</th><th>譜面画像</th></tr></thead><tbody>")
                     .appendTo(obj);
                 var obj_sep = null;
                 for (var i = 0; i < info.length; i++) {
@@ -95,7 +94,7 @@
                     $("<td width='10%'>" +
                         "<a href='http://www.ribbit.xyz/bms/score/view?md5=" + info[
                             i]
-                        .md5 + "' target='_blank'>" + info[i].comment + "</a></td>").appendTo(str);
+                        .md5 + "' target='_blank'>" + "test" + "</a></td>").appendTo(str);
                     
                     str.appendTo(obj);
                     count++;
