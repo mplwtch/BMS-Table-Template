@@ -91,10 +91,11 @@
                     // Artist
                     $("<td width='40%'>" + info[i].artist + "</td>").appendTo(str);
 
-                    // comment
-                    $("<td width='10%'>" + info[i].comment + "</td>").appendTo(str);
-                    str.appendTo(obj);
-                    count++;
+                    // Comment
+                    $("<td width='10%'>" +
+                        "<a href='http://www.ribbit.xyz/bms/score/view?md5=" + info[
+                            i]
+                        .md5 + "' target='_blank'>" + "test2" + "</a></td>").appendTo(str);
 
                 }
                 $("</tbody>").appendTo(obj);
