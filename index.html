@@ -92,10 +92,8 @@
                     $("<td width='40%'>" + info[i].artist + "</td>").appendTo(str);
 
                     // Comment
-                    $("<td width='10%'>" +
-                        "<a href='http://www.ribbit.xyz/bms/score/view?md5=" + info[
-                            i]
-                        .md5 + "' target='_blank'>" + info[i].comment + "</a></td>").appendTo(str);
+                    $("<td width='10%'>" + info[i].comment + "</td>").appendTo(str);
+                    str.appendTo(obj);
                     count++;
 
                 }
