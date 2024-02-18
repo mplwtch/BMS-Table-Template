@@ -36,13 +36,12 @@
             ✡27＝st9強～10<br>
             ✡28＝st11～12<br>
             </p>
-            <p>段位はRANDOMオプションを使用可能（beatoraja）段位は各2コースあり、2はかなり難しめ想定で腕試し用。</p>
+            段位はRANDOMオプションを使用可能（beatoraja）段位は各2コースあり、2はかなり難しめ想定で腕試し用。<br>
             <p><a href="https://www.youtube.com/playlist?list=PLGHiqlFm8P3zbe2YbxmKPZnx_VujbknnO">段位曲一覧動画(YouTube)</a>　2023年4月25日段位第1期実装。LR2コースファイルは<a href="https://www.dropbox.com/s/tq8knt9efkahubx/Solomon%E6%AE%B5%E4%BD%8D%E8%AA%8D%E5%AE%9A%E7%AC%AC1%E6%9C%9F.lr2crs?dl=1">ここ</a>からDL可能。</p>
             <p><a href="https://drive.google.com/u/1/uc?id=1frGN9GYK8Sc1Xepo7lY-kDz30ef_7LPz&export=download">オルゴール選曲BGM8曲セット</a>　Solomon難易度表おまけ特典</p>
             <p><s><a href="https://drive.google.com/drive/folders/1WpiWV1V8yrNALB3Dok5pB6UAoUr8m52-?usp=sharing">全曲パッケージ</a>　メインパッケージ2023/07/26 </s>  パッケージ更新停止しました。 </p>
             <p><a href="https://twitter.com/Solomon_BMS">X(Twitter)</a>　<a href="https://discord.com/invite/6CkQP6955a">Discord</a>　更新履歴や連絡などはこちら </p>
             <p>最終更新：2024/02/19</p>
-            <p>※現在ribbitサーバー落ちのため譜面画像が繋がりません</p>
         </div>
 
 
@@ -67,7 +66,7 @@
                 var obj = $("#table_int");
 
                 obj.html("");
-                $("<thead class='table-dark'><tr><th>Level</th><th>Title</th><th>SongArtist</th><th>Charter</th><th>ChartView</th></tr></thead><tbody>")
+                $("<thead class='table-dark'><tr><th>Level</th><th>Title</th><th>SongArtist</th><th>Charter</th></tr></thead><tbody>")
                     .appendTo(obj);
                 var obj_sep = null;
                 for (var i = 0; i < info.length; i++) {
@@ -89,7 +88,7 @@
                     $("<td width='5%'>" + mark + x + "</td>").appendTo(str);
 
                     // Title
-                    $("<td width='35%'>" +
+                    $("<td width='45%'>" +
                         "<a href='http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=" + info[
                             i]
                         .md5 + "' target='_blank'>" + info[i].title + "</a></td>").appendTo(str);
@@ -101,13 +100,13 @@
                     $("<td width='25%'>" + info[i].charter + "</td>").appendTo(str);
 
                     // 譜面画像
-                    $("<td width='10%'>" +
-                        "<a href='http://www.ribbit.xyz/bms/score/view?md5=" + info[
-                            i]
-                        .md5 + "' target='_blank'>" + "譜面画像" + "</a></td>").appendTo(str);
-                    
-                    str.appendTo(obj);
-                    count++;
+                    //$("<td width='10%'>" +
+                    //    "<a href='http://www.ribbit.xyz/bms/score/view?md5=" + info[
+                    //        i]
+                    //    .md5 + "' target='_blank'>" + "譜面画像" + "</a></td>").appendTo(str);
+                    //
+                    //str.appendTo(obj);
+                    //count++;
 
                 }
                 $("</tbody>").appendTo(obj);
